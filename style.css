@@ -1,0 +1,143 @@
+body {
+    background: url(https://preview.redd.it/utexmks2sbe81.png?auto=webp&s=14ff7c8efdc080f521a254bb83c0dd1ebef647b2) center center / cover;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    padding: 100px 0;
+    text;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.conteiner {
+    width: 800px;
+    min-height: 800px;
+    border: 10px solid rgb(255, 255, 255);
+    margin: 0 auto;
+    background: #fff;
+}
+
+.header {
+     display: flex;
+     height: 150px;
+}
+
+.title-block {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 70%;
+    height: 100%;
+    background: url(https://2ch.life/c/src/1204299/16419284765241.jpg) no-repeat center center / cover;
+    color: #90E3FF	;
+    margin-right: 10px;
+}
+
+.title-block::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 30%;
+}
+
+.title {
+    position: relative;
+    z-index: 1;
+}
+
+.userpic {
+    display: flex;
+    width: 30%;
+    height: 100%;
+    background: url(https://upload.wikimedia.org/wikipedia/en/e/ec/SmilingFriendsTitleCard.png) no-repeat center center / cover;
+}
+
+.nav ul {
+    display: flex;
+    background: #ffbb00e7;
+    border-top: 10px solid rgb(255, 255, 255);
+}
+
+.nav li {
+    font-size: 35px;
+}
+
+.nav li a {
+    padding: 20px;
+    display: flex;
+    text-decoration: none;
+    color: #FF6666;
+    border-right: 1px solid #ff8f8f ;
+    transition: text-shadow 0.6s;
+}
+
+.nav li a:hover{
+    backgroun: #e5aa08e7;
+    text-shadow: rgb(0, 26, 255) 1px 0 10px;
+}
+
+.content-wrapper {
+    display: flex;
+    margin-top: 10px;
+}
+
+.content {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    width: 70%;
+    padding: 10px;
+    background: rgba(233, 233, 233, 0.876);
+}
+
+.content p {
+    line-height: 26px;
+}
+
+.sidebar {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 30%;
+    padding: 10px;
+    background: #1e1d22;
+    margin-left: 10px;
+    color: #fff;
+}
+
+.Специалисты li{
+    padding: 10px 0;
+    font-size: 27px;
+    transition: transform .5s ease;
+    cursor: pointer;
+}
+
+.Специалисты li:hover{
+    transform: translateX(10px);
+}
+
+.Pim {
+    color: #FFB6FA;
+}
+
+.Charlie {
+    color: #FAF965;
+}
+
+.Alan {
+    color: #FF6666;
+}
+
+.Glep {
+    color: #81FC7F;
+}
+
+.Mr {
+    color: #9FE1FD;
+}
+
